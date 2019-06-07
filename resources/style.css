@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;	
+  
+}
+
+p{
+	font-size: 20px;
+	line-height: 200%;
+	text-align: justify;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.background {
+	background-image: url(img/hero-background.svg);
+	background-position: top;
+	background-size: cover;
+	height: 220vh;
+	width: 100vw;
+}
+
+.title{
+	font-size: 17vw;
+	color: #004462;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 190px;
+}
+
+.title-2{
+	font-size: 9.3vw;
+	color: #00b1ff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.facts{
+	background-color: #ffffff;
+}
+
+.fact-1{
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-color: #bfbfbf;
+	display: inline-block;
+}
+
+.fact-2{
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-color: #00b1ff;
+	display: inline-block;
+}
+
+.fact-3{
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-color: #004462;
+	display: inline-block;
+	
+}
+
+.fact-containers{
+	text-align: center;
+}
+
+.problem-statement-margin{
+	padding: 0px 200px;
+}
+
+.problem-statement-header{
+	letter-spacing: 5px;
+}
+
+.PET-header{
+	font-size: 100px;
+	letter-spacing: 10px;
+}
+
+.project-sumarry{
+	background-color: #dedede;
+}
