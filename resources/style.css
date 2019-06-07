@@ -79,10 +79,18 @@ body{
 }
 
 .PET-header{
-	font-size: 100px;
+	font-size: 50px;
 	letter-spacing: 10px;
+	color: white;
 }
 
 .project-sumarry{
-	background-color: #dedede;
+	background-color: #364156;
+}
+
+.parallax{
+	position: sticky;
+}
+
+.proj-sumarry-object{
 }
