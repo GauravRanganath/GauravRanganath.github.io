@@ -1,0 +1,53 @@
+Trying to start a tech company was the most fulfilling experience I've ever had. Let me tell you how it all came together . . .
+
+The easiest way I can tell you this story is by breaking into a seasonal timeline:
+
+Fall 2019 - Origin Story
+
+Entering my second-year of University, I had one goal in mind: land a summer internship. I applied to hundreds of online postings, but couldn't land an interview.
+
+It didn't help that I had subpar grades and very little professional experience.
+
+My dream internship would have been at a startup. Like I said I've always wanted to be an entrepreneur and I thought that an internship at a startup was as close as I could get to my goal being a second-year engineering student.
+
+The rejections kept piling up, and out of this frustration I had a crazy idea: What if I founded my own startup?
+
+That's when I stumbled upon the University of Toronto Hatchery NEST program (and became obsessed).
+
+Winter 2020 - Training Montage
+
+I had two pretty big obstacles I needed to conquer before I could even go through the NEST application. I needed a: A) Team and B) Idea.
+
+Luckily for me I've got a pretty awesome ride-or-die group of friends that were willing to go on the entrepreneurial journey with me. As for the idea, we revived an old hackathon winning project that we thought had the potential to fill a gap in the market (spoiler alert: we were wrong) 
+
+Our written application was approved and we were invited to pitch our idea in front of the Executive Director of the Hatchery. The pitch went well and not only did we get into the NEST 2020 cohort, we also received $14 000 of fellowship funding.
+
+We spent the rest of the Winter balancing both school and hacking away at our idea.
+
+Summer 2020 - It Got Real
+
+Up until this point our road to the Hatchery was incredibly smooth, everything went right for us. Let's just say we were incredibly naive to think that this trend would continue.
+
+On our first day we met our mentors, two seasoned successful entrepreneurs who worked closely with us throughout the program. We wasted no time getting started and pitched what we'd done so far. Our slides looked great and I was confident in my ability to sell our idea, so I was expecting a little bit of praise.
+
+To my surprise at the end of my presentation I was met with awkward silence which was followed by the words "this won't work."
+
+Looking back our original idea was pretty stupid. It was basically a glorified personal finance app. Fortunately, we listened to our mentors, threw away all of our work and started from ground zero (aka nothing).
+
+We spent the next week scouring the internet for ideas and ended up with a 20 page document filled with problems to solve. We must've worked 80 hours that week, most of which we spent arguing with each other on what idea to pursue. Fortunately we found it, the problem we'd spend the next four months trying to solve: Business Email Compromise.
+
+The Hatchery is structured so that teams pitch their idea to a group of seasoned entrepreneurs every 2 weeks. I'm not going to lie, our first pitch was rough, all we had was a problem that we had no solution to. At the end of the pitch I even apologized for our lack of substance.
+
+From that point on we attacked every week of the program with as much energy as the first and really built up momentum.
+
+We reached out to hundreds of cybersecurity professionals and hustled our way into meetings with leaders in the industry. We met with CEO's, CTO's, CISO's, and Cybersecurity Directors of international companies who gave us the insight and validation we needed to build our minimum viable product.
+
+At the end of the summer we built Depactor, a cyber security start up that applied machine learning and linguistic analysis to prevent Business Email Compromise. We developed a machine learning model using scikit-learn, Pandas, and NumPy to attribute authorship of corporate emails with up to a 95% accuracy using a Flask back-end and front-end built with HTML/CSS/JS and Bootstrap.
+
+Although we had a shaky start, we finished the program as one of the top teams, qualifying as Hatchery finalists and invited to pitch in front of thousands of investors at the Hatchery's 2020 Demo Day.
+
+Fall 2020
+
+After Demo Day, our team made the difficult decision to call it quits. With the summer coming to an end and the start of third-year we knew that we couldn't manage both our startup and school at the same time. We contemplated pulling a Zuckerberg and dropping out, but quite frankly, we just didn't have the confidence to do it.
+
+Regardless of the outcome, I stand by my statement that founding Depactor has been the most fulfilling experience of my life. I woke up every single day hungry and ready to chase a dream with some of my best friends. One day I intend to start a new venture that I hope will be even more fulfilling than Depactor.

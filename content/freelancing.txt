@@ -1,0 +1,32 @@
+Throughout my academic career I've worked on a variety of projects for some incredible student-run organizations. Let me tell you about it!
+
+Engineering Stores
+
+"Conveniently located in the basement of the Sandford Fleming building, the Engineering Stores carries first year textbooks, Skule and discipline clothing, stationery, and so much more!"
+
+- Engineering Stores Homepage
+
+I spent my first summer of University and all of my second-year as the Engineering Stores Web Developer. During my time on the team, I designed their homepage which is still used today. You can take a look at my work here:
+
+Engineering Stores
+
+iGEM UofT
+
+"International Genetically Engineered Machine competition is a worldwide synthetic biology competition for undergraduate university students. Synthetic biology is a field of science where engineering techniques are used to redesign organism to have new, useful abilities. This allows students to develop critical thinking skills while gaining a wide range of technical abilities, be it in the wet lab or dry lab, or amongst a team setting. We have another team dedicated to human practices, which assesses ethical and societal implications of the technology produced from the wet lab and dry lab."
+
+- iGEM Toronto Homepage
+
+I spent my first summer of University as iGEM Toronto's Web Developer. During my time on the team, I designed two web pages. Although no longer hosted on their official website you can take a look at my work here:
+
+iGEM Toronto 2019 Homepage
+iGEM Toronto 2019 Competition Wiki
+
+"Founded in 1995, the University of Toronto Blue Sky Solar Racing team is a student-led design-build team that has designed, built and raced solar powered vehicles for over 25 years. Last October, the team finished their 10th generation vehicle, Viridian, and succesfully raced in the 2019 World Solar Challenge."
+
+- Blue Sky Solar Racing Homepage
+
+I spent my first summer of University part of the Blue Sky Solar Racing's business development team. During my time on the team, I designed two web pages. Although no longer hosted on their official website you can take a look at my work here:
+
+Unveiling Live Stream
+Fundraising Page
+
