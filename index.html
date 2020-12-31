@@ -10,6 +10,13 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="style/css/main.css">
+    <link rel="stylesheet" href="style/css/multi-carousel.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+    <script src="jquery-3.5.1.min.js"></script>
 
     <title>Gaurav Ranganath</title>
   </head>
@@ -43,31 +50,64 @@
     <section class="hero-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <div class="hero">
-                        <img style="vertical-align:middle" class="headshot" src="style/img/headshot.jpg">
-                        <div class="hero-text">
-                            <h1>Gaurav Ranganath</h1>
-    
-                            <br>
-    
-                            <p>
-                                Hey there, I'm Gaurav! Welcome to my little corner of the internet. I'm glad that you're here :)
-                            </p>
-                                
-                            <p>
-                                I'm a third-year Computer Engineering student at the University of Toronto with a heavy focus in Software.
-                            </p>
-    
-                            <p>
-                                When I'm not busy with school, you'll most likely find me reading a book (I love to read), running around my neighbourhood (my favourite way to destress), or listening to Kanye (if you're not a fan click ctrl/cmd + W pls)
-                            </p>
-    
-                            <p>
-                                Let me run you through some of my highlights below . . .
-                            </p>
-    
+                <div class="col d-flex justify-content-center align-middle">
+                    <div class="hero-card">
+                        <div class="float-headshot">
+                            <img width="100%" src='style/img/headshot.jpg'>
+                            <br><br><br>
+                            <span class="favourites-title">Favourites</span>
+                            <br><br>
+                            <div class="">
+                                <table>
+                                    <tr>
+                                      <td valign="top" style="width:25%">Book</td>
+                                      <td valign="top">Man's Search for Meaning by Viktor Frankl</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">Author</td>
+                                      <td valign="top">Walter Isaacson</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">Song</td>
+                                      <td valign="top">Father Stretch by Kanye</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">Album</td>
+                                      <td valign="top">The Life of Pablo by Kanye</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">Artist</td>
+                                      <td valign="top">Surprise! It's Kanye.</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">Show</td>
+                                      <td valign="top">South Park</td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">Anime</td>
+                                        <td valign="top">Attack on Titan</td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">Game</td>
+                                        <td valign="top">Skyrim</td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">Shoe</td>
+                                        <td valign="top">White AF1's</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
+                        
+                        <div class="float-hero-text"> 
+                            <h1 class="hero-text-hello">Hello.</h1><br>
+                            <span class="hero-text-name">I'M GAURAV RANGANATH</span>
+                            <p>
+                                <br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
+                            </p>
+                            
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -83,12 +123,13 @@
                 <div class="row">
                     <div>
                         <h1>Experience</h1>
+                        <hr align="left" style="width: 75px; height: 5px; background-color: black; color: black;">
                     </div>
                 </div>
     
                 <!-- Depactor -->
             
-                <div class="row section-spacing">
+                <div class="row section-spacing corner">
                     <div class="col-2">
                         <img class="experience-img" src="style/img/depactor-logo.jpeg">
                     </div>
@@ -96,14 +137,10 @@
                         
                         <div class="row">
                             <div class="col-6">
-                                <p>
-                                    Depactor
-                                </p>
+                                <p class="experience-subheading">Depactor</p>
                             </div>
                             <div class="col-6">
-                                <p class="text-right">
-                                    Toronto, Canada
-                                </p>
+                                <p class="experience-subheading text-right">Toronto, Canada</p>
                             </div>
                         </div>
                         
@@ -122,82 +159,11 @@
         
                         <div class="row">
                             <div class="col">
-                                <p>
-                                    Trying to start a tech company was the most fulfilling experience I've ever had. Let me tell you how it all came together<span id="dots-depactor"> . . .</span>
-                                
-                                    <span id="more-depactor">
-                                    . . .
-                                    <br><br>
-                                    
-                                    The easiest way I can tell you this story is by breaking into a seasonal timeline:
-
-                                    <br><br>
-
-                                    Fall 2019 - Origin Story
-
-                                    <br><br>
-
-                                    Entering my second-year of University, I had one goal in mind: land a summer internship. I applied to hundreds of online postings, but couldn't land an interview.
-
-                                    The rejections kept piling up, and out of this frustration I had a crazy idea: What if I started my own company?
-
-                                    That's when I stumbled upon the University of Toronto Hatchery NEST program (and became obsessed).
-
-                                    <br><br>
-                                    
-                                    Winter 2020 - Training Montage
-
-                                    <br><br>
-
-                                    I had two pretty big obstacles I needed to conquer before I could even go through the NEST application. I needed A) a team and B) an idea.
-
-                                    Luckily for me I've got a pretty awesome ride-or-die group of friends that were willing to go on the entrepreneurial journey with me. As for the idea, we revived an old hackathon project that we thought had the potential to fill a gap in the market.
-
-                                    Our written application was approved and we were invited to pitch our idea in front of the Executive Director of the Hatchery. The pitch went well and not only did we get into the NEST 2020 cohort, we also received $14 000 of fellowship funding.
-
-                                    We spent the rest of the Winter balancing both school and hacking away at our idea.
-
-                                    <br><br>
-
-                                    Summer 2020 - It Got Real
-
-                                    <br><br>
-
-                                    On our first day we got to meet our mentors, two seasoned successful entrepreneurs who worked closely with us throughout the program. We wasted no time getting started and pitched what we'd done so far. Our slides looked great and I was confident in my ability to sell our idea.
-
-                                    To my surprise at the end of my pitch I was met with awkward silence followed by the words "this won't work."
-
-                                    Fortunately, we listened to our mentors and started from ground zero (aka nothing).
-
-                                    <br><br>
-
-                                    We spent the next week scouring the internet for ideas and ended up with a 20 page document filled with problems to solve. We must've worked 80 hours that week (most of which we spent arguing with each other). Fortunately we found it, the problem we'd spend the next four months trying to solve: Business Email Compromise.
-
-                                    The Hatchery is structured so that teams pitch their idea to a group of seasoned entrepreneurs every 2 weeks. I'm not going to lie, our first pitch was rough, all we had was a problem that we had no solution to. At the end of the pitch I even apologized for our lack of substance.
-
-                                    From that point on we attacked every week of the program with as much energy as the first and really built up momentum.
-
-                                    <br><br>
-
-                                    We reached out to hundreds of cybersecurity professionals and hustled our way into meetings with leaders in the industry. We met with CEO's, CTO's, CISO's, and Cybersecurity Directors of multi-national companies who gave us the insight and validation we needed to build our minimum viable product.
-
-                                    At the end of the summer we built Depactor, a cyber security start up that applied machine learning and linguistic analysis to prevent Business Email Compromise. We developed a machine learning model using scikit-learn, Pandas, and NumPy to attribute authorship of corporate emails with up to a 95% accuracy using a Flask back-end and front-end built with HTML/CSS/JS and Bootstrap. If you're interested in our pitch you can check it out here.
-
-                                    Although we had a shaky start, we finished the program as one of the top teams, qualifying as Hatchery finalists and invited to pitch in front of thousands of investors at the Hatchery's 2020 Demo Day.
-
-                                    <br><br>
-
-                                    Fall 2020
-
-                                    <br><br>
-
-                                    After Demo Day, our team made the difficult decision to call it quits. With the summer coming to an end and the start of third-year we knew that we couldn't manage both our startup and school at the same time. We contemplated pulling a Zuckerberg and dropping out, but quite frankly, we just didn't have the confidence to do it.
-
-                                    Regardless of the outcome, I stand by my statement that founding Depactor has been the most fulfilling experience of my life. I woke up every single day hungry and ready to chase a dream with some of my best friends. One day I intend to start a new venture that I hope will be even more fulfilling than Depactor.
-                                    </span>
+                                <p class="depactor">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
                                 </p>
-    
-                                <button onclick="readMoreDepactor()" id="myBtn-depactor" class="btn btn-dark">Read More</button>
+                                <br>
+                                <button type="button" class="btn btn-dark custom-btn">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -205,7 +171,7 @@
     
                 <!-- Freelance -->
     
-                <div class="row section-spacing">
+                <div class="row section-spacing corner">
                     <div class="col-2">
                         <img class="experience-img" src="style/img/freelance-logo.png">
                     </div>
@@ -213,14 +179,10 @@
                         
                         <div class="row">
                             <div class="col-6">
-                                <p>
-                                    Not-For-Profit Freelancing
-                                </p>
+                                <p class="experience-subheading">Not-For-Profit Freelancing</p>
                             </div>
                             <div class="col-6">
-                                <p class="text-right">
-                                    Toronto, Canada
-                                </p>
+                                <p class="experience-subheading text-right">Toronto, Canada</p>
                             </div>
                         </div>
                         
@@ -239,49 +201,11 @@
         
                         <div class="row">
                             <div class="col">
-                                <p>
-                                    Throughout my academic career I've worked on a variety of projects for some incredible student-run organizations. Let me tell you about it<span id="dots-freelance"> . . .</span>
-                                
-                                    <span id="more-freelance">
-                                    . . .
-                                    <br><br>    
-                                    Engineering Stores
-                                    <br><br>
-                                    "Conveniently located in the basement of the Sandford Fleming building, the Engineering Stores carries first year textbooks, Skule and discipline clothing, stationery, and so much more!"
-                                    <br><br>
-                                    - Engineering Stores Homepage
-                                    <br><br>
-                                    I spent my first summer of University and all of my second-year as the Engineering Stores Web Developer. During my time on the team, I designed their homepage which is still used today. You can take a look at my work here:
-                                    <br><br>
-                                    Engineering Stores
-                                    <br><br>
-                                    iGEM UofT
-                                    <br><br>
-                                    "International Genetically Engineered Machine competition is a worldwide synthetic biology competition for undergraduate university students. Synthetic biology is a field of science where engineering techniques are used to redesign organism to have new, useful abilities. This allows students to develop critical thinking skills while gaining a wide range of technical abilities, be it in the wet lab or dry lab, or amongst a team setting. We have another team dedicated to human practices, which assesses ethical and societal implications of the technology produced from the wet lab and dry lab."
-                                    <br><br>
-                                    - iGEM Toronto Homepage
-                                    <br><br>
-                                    I spent my first summer of University as iGEM Toronto's Web Developer. During my time on the team, I designed two web pages. Although no longer hosted on their official website you can take a look at my work here:
-                                    <br><br>
-                                    iGEM Toronto 2019 Homepage
-                                    <br>
-                                    iGEM Toronto 2019 Competition Wiki
-                                    <br><br>
-                                    Blue Sky Solar Racing
-                                    <br><br>
-                                    "Founded in 1995, the University of Toronto Blue Sky Solar Racing team is a student-led design-build team that has designed, built and raced solar powered vehicles for over 25 years. Last October, the team finished their 10th generation vehicle, Viridian, and succesfully raced in the 2019 World Solar Challenge."
-                                    <br><br>
-                                    - Blue Sky Solar Racing Homepage
-                                    <br><br>
-                                    I spent my first summer of University part of the Blue Sky Solar Racing's business development team. During my time on the team, I designed two web pages. Although no longer hosted on their official website you can take a look at my work here:
-                                    <br><br>
-                                    - Unveiling Live Stream
-                                    <br>
-                                    - Fundraising Page
-                                    </span>
+                                <p class="freelance">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
                                 </p>
-    
-                                <button onclick="readMoreFreelance()" id="myBtn-freelance" class="btn btn-dark">Read More</button>
+                                <br>
+                                <button type="button" class="btn btn-dark custom-btn">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -302,12 +226,13 @@
                 <div class="row">
                     <div>
                         <h1>Leadership</h1>
+                        <hr align="left" style="width: 75px; height: 5px; background-color: black; color: black;">
                     </div>
                 </div>
     
                 <!-- IEEE -->
             
-                <div class="row section-spacing">
+                <div class="row section-spacing corner">
                     <div class="col-2">
                         <img class="experience-img" src="style/img/depactor-logo.jpeg">
                     </div>
@@ -315,14 +240,10 @@
                         
                         <div class="row">
                             <div class="col-6">
-                                <p>
-                                    Depactor
-                                </p>
+                                <p class="experience-subheading">IEEE</p>
                             </div>
                             <div class="col-6">
-                                <p class="text-right">
-                                    Toronto, Canada
-                                </p>
+                                <p class="experience-subheading text-right">Toronto, Canada</p>
                             </div>
                         </div>
                         
@@ -341,82 +262,11 @@
         
                         <div class="row">
                             <div class="col">
-                                <p>
-                                    Trying to start a tech company was the most fulfilling experience I've ever had. Let me tell you how it all came together<span id="dots-IEEE"> . . .</span>
-                                
-                                    <span id="more-IEEE">
-                                    . . .
-                                    <br><br>
-                                    
-                                    The easiest way I can tell you this story is by breaking into a seasonal timeline:
-
-                                    <br><br>
-
-                                    Fall 2019 - Origin Story
-
-                                    <br><br>
-
-                                    Entering my second-year of University, I had one goal in mind: land a summer internship. I applied to hundreds of online postings, but couldn't land an interview.
-
-                                    The rejections kept piling up, and out of this frustration I had a crazy idea: What if I started my own company?
-
-                                    That's when I stumbled upon the University of Toronto Hatchery NEST program (and became obsessed).
-
-                                    <br><br>
-                                    
-                                    Winter 2020 - Training Montage
-
-                                    <br><br>
-
-                                    I had two pretty big obstacles I needed to conquer before I could even go through the NEST application. I needed A) a team and B) an idea.
-
-                                    Luckily for me I've got a pretty awesome ride-or-die group of friends that were willing to go on the entrepreneurial journey with me. As for the idea, we revived an old hackathon project that we thought had the potential to fill a gap in the market.
-
-                                    Our written application was approved and we were invited to pitch our idea in front of the Executive Director of the Hatchery. The pitch went well and not only did we get into the NEST 2020 cohort, we also received $14 000 of fellowship funding.
-
-                                    We spent the rest of the Winter balancing both school and hacking away at our idea.
-
-                                    <br><br>
-
-                                    Summer 2020 - It Got Real
-
-                                    <br><br>
-
-                                    On our first day we got to meet our mentors, two seasoned successful entrepreneurs who worked closely with us throughout the program. We wasted no time getting started and pitched what we'd done so far. Our slides looked great and I was confident in my ability to sell our idea.
-
-                                    To my surprise at the end of my pitch I was met with awkward silence followed by the words "this won't work."
-
-                                    Fortunately, we listened to our mentors and started from ground zero (aka nothing).
-
-                                    <br><br>
-
-                                    We spent the next week scouring the internet for ideas and ended up with a 20 page document filled with problems to solve. We must've worked 80 hours that week (most of which we spent arguing with each other). Fortunately we found it, the problem we'd spend the next four months trying to solve: Business Email Compromise.
-
-                                    The Hatchery is structured so that teams pitch their idea to a group of seasoned entrepreneurs every 2 weeks. I'm not going to lie, our first pitch was rough, all we had was a problem that we had no solution to. At the end of the pitch I even apologized for our lack of substance.
-
-                                    From that point on we attacked every week of the program with as much energy as the first and really built up momentum.
-
-                                    <br><br>
-
-                                    We reached out to hundreds of cybersecurity professionals and hustled our way into meetings with leaders in the industry. We met with CEO's, CTO's, CISO's, and Cybersecurity Directors of multi-national companies who gave us the insight and validation we needed to build our minimum viable product.
-
-                                    At the end of the summer we built Depactor, a cyber security start up that applied machine learning and linguistic analysis to prevent Business Email Compromise. We developed a machine learning model using scikit-learn, Pandas, and NumPy to attribute authorship of corporate emails with up to a 95% accuracy using a Flask back-end and front-end built with HTML/CSS/JS and Bootstrap. If you're interested in our pitch you can check it out here.
-
-                                    Although we had a shaky start, we finished the program as one of the top teams, qualifying as Hatchery finalists and invited to pitch in front of thousands of investors at the Hatchery's 2020 Demo Day.
-
-                                    <br><br>
-
-                                    Fall 2020
-
-                                    <br><br>
-
-                                    After Demo Day, our team made the difficult decision to call it quits. With the summer coming to an end and the start of third-year we knew that we couldn't manage both our startup and school at the same time. We contemplated pulling a Zuckerberg and dropping out, but quite frankly, we just didn't have the confidence to do it.
-
-                                    Regardless of the outcome, I stand by my statement that founding Depactor has been the most fulfilling experience of my life. I woke up every single day hungry and ready to chase a dream with some of my best friends. One day I intend to start a new venture that I hope will be even more fulfilling than Depactor.
-                                    </span>
+                                <p class="IEEE">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
                                 </p>
-    
-                                <button onclick="readMoreIEEE()" id="myBtn-IEEE" class="btn btn-dark">Read More</button>
+                                <br>
+                                <button type="button" class="btn btn-dark custom-btn">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -426,107 +276,166 @@
         </div>
     </section>
 
-    <!-- Experiences -->
+    <div class="parallax"></div>
 
-    <div class="container">
+    <!-- Projects -->
+
+    <div class="container section-spacing">
         
-        <!-- Projects (In Progress)
+            <div class="row">
+                <div class="col">
+                    <h1>Projects</h1>
+                    <hr align="left" style="width: 75px; height: 5px; background-color: black; color: black;">
+                </div>
+            </div>
 
-        <div class="section-spacing">
+            <br><br>
 
             <div class="row">
-                <div>
-                    <h1>Projects</h1>
-                </div>
-            </div>
-        
-            <div class="row section-spacing">
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Ceaser Cipher
-                    </p>
-                </div> 
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Foreign Greeting Voice Assistant
-                    </p>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Example
-                    </p>
-                </div> 
+                <div class="col">
+                    <span class="project-category">Side Projects</span>
+                </div>  
             </div>
 
-            <div class="row section-spacing">
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Ceaser Cipher
-                    </p>
-                </div> 
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Foreign Greeting Voice Assistant
-                    </p>
+            <br><br>
+
+            <div class="row">
+                <div class="col">
+                    <div class="project-card">
+                        <p class="project-title">
+                            Depactor Demo
+                        </p>
+                    </div>
+                </div>  
+                <div class="col">
+                    <div class="project-card">
+                        <p class="project-title">
+                            Foreign Greeting Voice Assistant
+                        </p>
+                    </div>
                 </div>
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Example
-                    </p>
-                </div> 
             </div>
 
-            <div class="row section-spacing">
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Ceaser Cipher
-                    </p>
-                </div> 
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        Foreign Greeting Voice Assistant
-                    </p>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="https://place-hold.it/200x200">
-                    <p>
-                        <br>
-                        iOS Inspired Web Apps
-                    </p>
-                </div> 
+            <br><br>
+
+            <div class="row">
+                <div class="col">
+                    <span class="project-category">Freelance</span>
+                </div>  
             </div>
 
-        </div>
+            <br><br>
 
-        -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="project-card">
+                        <p class="project-title">Engineering Stores</p>
+                    </div>
+                </div>  
+                <div class="col-sm-4">
+                    <div class="project-card">
+                        <p class="project-title">iGEM Toronto</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="project-card">
+                        <p class="project-title">Blue Sky Solar Racing</p>
+                    </div>
+                </div>     
+            </div>
 
+            <br><br>
+
+            <div class="row">
+                <div class="col">
+                    <span class="project-category">Hackathons</span>
+                </div>  
+            </div>
+
+            <br><br>
+
+            <div class="row is-flex">
+                <div class="col-sm-4">
+                    <div class="project-card">
+                        <p class="project-title">ACESO</p>
+                        <p>Developed a computer vision based mobile application to accurately diagnose Parkinson's Disease and Malaria. We used Python3, Flutter, and Microsoft Azure.</p>
+                        <p class="project-title">Winner of the 2019 TOHacks Lantern Institute Big Data Challenge.</p>
+                    </div> 
+                </div>  
+                <div class="col-sm-4">
+                    <div class="project-card">
+                        <p class="project-title">Givr</p>
+                        <p>Developed a website and mobile application to connect charities to the public. The platform included the following features: instantaneous money transfers, live rating system, and a real-deployed dashboard. We used Flutter, Typescript, and Microsoft Azure.</p>
+                        <p class="project-title">Demoed at Hack the North 2019</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="project-card">
+                        <p class="project-title">Signatio</p>
+                        <p>Developed an interactive educational platform that used computer vision to gamify and breakdown the barrier of learning American Sign Language. We used Python3, Flask, and Bootstrap.</p>
+                        <p class="project-title">Demoed at DeltaHacks VI</p>
+                    </div>
+                </div>     
+            </div>
+
+            <br><br>
+
+            <div class="row">
+                <div class="col">
+                    <span class="project-category">Coursework</span>
+                </div>  
+            </div>
+
+            <br><br>
+
+            <div class="row">
+                <div class="col">
+                    <div class="project-card">
+                        <p class="project-title">EasyDB Database Driver</p>
+                        <p>Developed driver code to communicate with EasyDB in Python3.</p>
+                    </div>
+                </div>  
+                <div class="col">
+                    <div class="project-card">
+                        <p class="project-title">EasyDB Object Relational Mapping Framework</p>
+                        <p>Developed an object relational mapping (ORM) framework for EasyDB in Python3.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="project-card">
+                        <p class="project-title">Concurrent In-Memory Database Server</p>
+                        <p>Developed a multithreaded concurrent in-memory database server in Rust.</p>
+                    </div>
+                </div>   
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col">
+                    <div class="project-card">
+                        <p class="project-title"> Remote Procedure Call (RPC) Framework</p>
+                        <p>Developed a type-safe remote procedure call (RPC) framework in C++.</p>
+                    </div>
+                </div>  
+                <div class="col">
+                    <div class="project-card">
+                        <p class="project-title">Geographic Information System (TourMap)</p>
+                        <p>Developed a geographic information system (GIS) similar in functionality to Google Maps in C++.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="project-card"> 
+                        <p class="project-title">FPGA Arcade Game</p>
+                        <p>Developed an original arcade game in both Verilog and C that was tested on a DE1-SOC (FPGA) board.</p>
+                    </div>
+                </div>    
+            </div>
     </div>
 
-    <section class="footer-section">
-        <div class="container-fluid">
-            <p class="footer-text">This website was built from scratch by (you guessed it) Gaurav Ranganath</p>
-        </div>
-    </section>
+    <!-- ReadMore JavaScript -->
 
-    <!-- Optional JavaScript -->
-
-    <script src="main.js"></script>
+    <script src="multi-carousel.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
