@@ -43,6 +43,11 @@
     color: black;
 }
 
+.hero-text {
+    font-size: 18px;
+    text-align: justify;
+}
+
 .hero-text-hello {
     font-size: 10vw;
     font-weight: bold;
@@ -145,9 +150,25 @@
     color: white;
 }
 
-.parallax {
+.parallax-1 {
     /* The image used */
-    background-image: url("https://images.wallpaperscraft.com/image/snow_winter_trees_136654_2560x1600.jpg");
+    background-image: url("https://live.staticflickr.com/65535/50788095882_394d9a6ec1_o.jpg");
+
+    filter: grayscale(100%);
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url("https://live.staticflickr.com/65535/50788225032_9bed5e1ba8_o.jpg");
 
     filter: grayscale(100%);
   
@@ -428,5 +449,21 @@
 
     color: #ececec;
 
+    }
+
+    .parallax {
+        /* The image used */
+        background-image: url("https://images.wallpaperscraft.com/image/snow_winter_trees_136654_2560x1600.jpg");
+    
+        filter: grayscale(100%);
+      
+        /* Set a specific height */
+        height: 250px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
