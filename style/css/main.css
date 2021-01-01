@@ -410,4 +410,23 @@
     
         color: black;
     }
+
+    .hero-section {
+
+    background-image: url(https://i.pinimg.com/originals/40/2e/8f/402e8f0c305be94355f15dd89a55dacf.jpg);
+    
+    filter: grayscale(100%);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: static;
+
+    color: #ececec;
+
+    }
 }
