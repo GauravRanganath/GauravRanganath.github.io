@@ -10,7 +10,7 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="style/css/main.css">
-    <link rel="stylesheet" href="style/css/multi-carousel.css">
+    <link rel="stylesheet" href="style/css/media-queries.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -55,19 +55,28 @@
             <div class="row">
                 <div class="col d-flex justify-content-center align-middle">
                     <div class="hero-card">
-                        <div class="float-headshot">
-                            <img width="100%" src='style/img/headshot.jpg'>
-                        </div>
-                        
-                        <div class="float-hero-text"> 
-                            <h1 class="hero-text-hello">Hello.</h1><br>
-                            <span class="hero-text-name">I'M GAURAV RANGANATH</span>
-                            <p>
-                                <br><br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
-                            </p>
-                            
-                        </div>                        
+
+                        <div class="row">
+                            <div class="col-md-4 float-headshot">
+                                    <img width="100%" src='style/img/headshot.jpg'>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="float-hero-text"> 
+                                    <h1 class="hero-text-hello">Hello.</h1><br>
+                                    <span class="hero-text-name">I'M GAURAV RANGANATH</span>
+                                    <p>
+                                        <br><br>
+                                        I’m a third-year computer engineering student at the University of Toronto with a heavy focus in software.
+                                        <br><br>
+                                        I’m excited to start my PEY (Professional Experience Year) as a Software Engineering Intern at Security Compass developing application security software starting May 2021.
+                                        <br><br>
+                                        Not too long ago I launched “Depactor” a cybersecurity start-up through the UofT Hatchery’s NEST program. Although it didn’t exactly work out, the experience sparked a personal interest in both cybersecurity and entrepreneurship.
+                                        <br><br>
+                                        When I’m not drowning in schoolwork you can find me out on a run, reading a book, or (most likely) in my bed streaming YouTube/Netflix/Crunchyroll.
+                                    </p>
+                                </div>   
+                            </div>
+                        </div>                     
                     </div>
                 </div>
             </div>
@@ -90,10 +99,10 @@
                 <!-- Depactor -->
             
                 <div class="row section-spacing corner">
-                    <div class="col-2">
+                    <div class="col-md-2">
                         <img class="experience-img" src="style/img/depactor-logo.jpeg">
                     </div>
-                    <div class="col-10">
+                    <div class="col-md-10">
                         
                         <div class="row">
                             <div class="col-6">
@@ -120,7 +129,11 @@
                         <div class="row">
                             <div class="col">
                                 <p class="depactor">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
+                                    Depactor was a cybersecurity start-up I founded through the University of Toronto Hatchery’s NEST program. Our start-up developed software that was able to detect business email compromise (BEC) attacks, a form of cybercrime that uses impersonation and spoofing type email fraud to scam organizations. 
+                                    <br><br>
+                                    We caught these attacks by applying linguistic analysis and machine learning to attribute authorship of corporate emails to a 95% accuracy. You can think of this attribution as cross checking a “linguistic fingerprint”. We built this fingerprint based on lexical (ex: average sentence length), syntactical (ex: word frequency), and structural (ex: indentation) features found in past samples of a person’s writing.
+                                    <br><br>
+                                    Depactor was admitted to the Hatchery NEST 2020 Cohort, a 4-month University of Toronto start-up incubator. Obtained $14 000 CAD in fellowship funding, temporary office space, access to a prototype fund, and an Advisory Board. We were recognized as one of the cohort’s top start-ups qualifying as NEST finalists and pitched at the Hatchery’s 2020 Demo Day.
                                 </p>
                                 <br>
                                 <button type="button" class="btn btn-dark custom-btn">Read More</button>
@@ -130,12 +143,12 @@
                 </div>
     
                 <!-- Freelance -->
-    
+
                 <div class="row section-spacing corner">
-                    <div class="col-2">
+                    <div class="col-md-2">
                         <img class="experience-img" src="style/img/freelance-logo.png">
                     </div>
-                    <div class="col-10">
+                    <div class="col-md-10">
                         
                         <div class="row">
                             <div class="col-6">
@@ -161,8 +174,8 @@
         
                         <div class="row">
                             <div class="col">
-                                <p class="freelance">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
+                                <p class="depactor">
+                                    Breaking into the software industry isn’t an easy thing to do. Even as a computer engineering student I found it difficult to gain relevant industry experience. I discovered that a great work around is working for free. Throughout my time at university, I’ve been able to work on software projects for a handful of great organizations. Some of my favourite projects have been with the University of Toronto Engineering Stores, iGEM Toronto, and Blue Sky Solar Racing.
                                 </p>
                                 <br>
                                 <button type="button" class="btn btn-dark custom-btn">Read More</button>
@@ -170,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -191,12 +204,12 @@
                 </div>
     
                 <!-- IEEE -->
-            
+
                 <div class="row section-spacing corner">
-                    <div class="col-2">
+                    <div class="col-md-2">
                         <img class="experience-img" src="style/img/depactor-logo.jpeg">
                     </div>
-                    <div class="col-10">
+                    <div class="col-md-10">
                         
                         <div class="row">
                             <div class="col-6">
@@ -210,20 +223,22 @@
                         <div class="row">
                             <div class="col-6">
                                 <p>
-                                    Co-Founder
+                                    Branch Chair
                                 </p>
                             </div>
                             <div class="col-6">
                                 <p class="text-right">
-                                    Feb. 2020 - Sept. 2020
+                                    May. 2019 - PRESENT
                                 </p>
                             </div>
                         </div>
         
                         <div class="row">
                             <div class="col">
-                                <p class="IEEE">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus accumsan odio, eget suscipit tellus semper non. Nulla scelerisque ex metus, sed luctus sapien tristique vitae. Sed eget tristique ligula, vel sodales sapien. Nulla facilisi. Aenean gravida purus sed massa tempor, at aliquet quam porttitor. Sed malesuada tristique turpis in consequat. Cras venenatis tristique odio, et bibendum libero porta ut. Maecenas quis erat vel nisl lobortis ornare. In semper in risus sit amet imperdiet. Vivamus malesuada non arcu vitae rutrum. Morbi imperdiet lacus eget lectus tempus condimentum. Mauris elementum, risus quis scelerisque pulvinar, nisl mauris viverra nunc, ut interdum purus eros eu tortor. Cras lacinia felis sapien, id elementum tortor bibendum id. Curabitur rutrum purus libero, non pretium mi efficitur et. Praesent eget tellus vestibulum, fringilla sapien in, suscipit mauris.
+                                <p class="depactor">
+                                    I’ve been an active member of the IEEE UofT student chapter since the end of my first year of university. I started off as a Director arranging various talks and climbed my way to Branch Chair. As Branch Chair I lead a team of 42 members, manage our annual operating budget of $40 000 CAD, and oversee the execution of 10+ events during the academic year that engage 1000+ students.
+                                    <br><br>
+                                    Some of our biggest events include MakeUofT and NewHacks. MakeUofT is Canada’s largest hardware focussed hackathon and NewHacks is targeted at beginner hackers.
                                 </p>
                                 <br>
                                 <button type="button" class="btn btn-dark custom-btn">Read More</button>

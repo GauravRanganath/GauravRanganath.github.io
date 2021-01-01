@@ -44,20 +44,22 @@
 }
 
 .hero-text-hello {
-    font-size: 124px;
+    font-size: 10vw;
     font-weight: bold;
     letter-spacing: 10px;
 }
 
 .hero-text-name {
-    background-color: black !important;
+    background-color: black;
     
     color: white;
-    font-size: 24px;
+    font-size: 3vw;
     letter-spacing: 5px;
 
     margin-top: 20px;
     padding: 20px;
+
+    white-space: nowrap;
 }
 
 .favourites-title {
@@ -121,14 +123,8 @@
     color: white;
 }
 
-.float-headshot {
-    width: 33%;
-    float: left;
-}  
-
 .float-hero-text {
-    padding-left: 50px;
-    width: 67%;
+    width: 100%;
     float: left;
 }  
 
@@ -138,8 +134,7 @@
 }
 
 .experience-img {
-    height: 125px;
-    width: 125px;
+    width: 100%;
 }
 
 .footer-section {
@@ -354,15 +349,6 @@
 {
   background-color:#ea4c89
 }
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
 
 .technologies {
     float: left;
@@ -371,4 +357,57 @@
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    .hero-text-name {    
+        color: black;
+        font-size: 3vw;
+        letter-spacing: 5px;
+
+        margin-top: 20px;
+        padding: 0px;
+
+        white-space: normal;
+        background-color: white;
+    }
+
+    .social-icons li.title
+    {
+        display:block;
+        margin-right:0;
+        font-weight:600
+    }
+
+    .experience-img {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .section-spacing {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .float-headshot {
+        margin-bottom: 50px;
+    }
+
+    .hero-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+        background-color: white;
+    
+        width: 1200px;
+    
+        padding: 20px;
+    
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+        color: black;
+    }
 }
