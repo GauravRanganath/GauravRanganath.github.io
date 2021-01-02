@@ -48,6 +48,40 @@
     text-align: justify;
 }
 
+.favourite {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    line-height: 36px;
+}
+
+.corner-favourites {
+    margin-top: 25px;
+    background:
+      linear-gradient(to right, black 5px, transparent 5px) 0 0,
+      linear-gradient(to right, black 5px, transparent 5px) 0 100%,
+      linear-gradient(to left, black 5px, transparent 5px) 100% 0,
+      linear-gradient(to left, black 5px, transparent 5px) 100% 100%,
+      linear-gradient(to bottom, black 5px, transparent 5px) 0 0,
+      linear-gradient(to bottom, black 5px, transparent 5px) 100% 0,
+      linear-gradient(to top, black 5px, transparent 5px) 0 100%,
+      linear-gradient(to top, black 5px, transparent 5px) 100% 100%;
+  
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+
+    padding: 25px;
+}
+
+table, th, td {
+    border: 5px solid black;
+}
+
+.right {
+    text-align: right;
+}
+
 .hero-text-hello {
     font-size: 10vw;
     font-weight: bold;
