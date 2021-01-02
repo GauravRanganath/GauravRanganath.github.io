@@ -380,6 +380,10 @@
     border-radius: 5px;
 }
 
+.card {
+    border-color: black;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 768px) {
     .hero-text-name {    
